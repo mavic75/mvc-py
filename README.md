@@ -2,11 +2,11 @@
  
 # URL DEPLOY
 
-
+# 
 
 # URL PROYECTO
 
-# 
+# https://github.com/mavic75/mvc-py.git
 
 
  # CURL

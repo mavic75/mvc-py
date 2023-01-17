@@ -1,3 +1,4 @@
+import flask
 from flask import Flask, render_template, request, redirect, jsonify
 from db import conn
 from  psycopg2 import extras
