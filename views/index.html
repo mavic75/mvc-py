@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API MVC</title>
+  </head>
+  <br>
+    <h1>LISTA DE USUARIO</h1>
+    <ul>
+      {% for user in users %}
+        <li>{{ user }}</li>
+      {% endfor %}
+    </ul>
+    <form action="/usuarios" method="post">
+      <input type="text" name="user_nombre"><br><br>
+      <input type="text" name="user_edad"><br><br>
+      <button type="submit">ADD USUARIO </button>
+    </form>
+  </body>
+</html>
